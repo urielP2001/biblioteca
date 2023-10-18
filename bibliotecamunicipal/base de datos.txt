@@ -1,0 +1,12 @@
+nombre base de datos "biblioteca"
+tablas: noticias, permisos, usuario
+
+campos de noticias
+id_noticia, titulo, descripcion, contenido, imagen, fecha_publicacion, estado
+
+campos de permisos
+id_ permisos = 1	rol = administrador
+id_ permisos = 2	rol = lector
+
+campos de usuario
+id, nombre, dni, usuario, clave, fechanacimiento, correo, rol

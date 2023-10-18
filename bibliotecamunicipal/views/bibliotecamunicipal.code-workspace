@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../proyectoInstituto"
+		},
+		{
+			"path": "../../../contador_de_horas"
+		}
+	],
+	"settings": {}
+}
