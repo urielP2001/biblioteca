@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Biblioteca Popular Coronda</title>
-  <link rel="stylesheet" href="css/style.css?v1.3">
+  <link rel="stylesheet" href="css/style.css?v1.1.2">
   <link rel="stylesheet" href="css/whatsapp.css?v1.1">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
@@ -51,9 +51,7 @@
 
       <h1>Biblioteca Popular <br> "Coronel José Rodríguez" <br> Coronda</h1>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-         Doloremque nulla debitis adipisci quaerat inventore omnis velit aspernatur possimus molestias?
-          Vero, eius. Recusandae dignissimos nobis repellendus, quae rem voluptate! Vel, placeat.
+      "La Biblioteca no es una suma de libros, es un organismo vivo con vida autónoma". <span>- Umberto Eco, La memoria  vegetal.</span>
       </p>
       <a href="#actividades" class="btn-1">Informacion</a>
     </div>
@@ -155,7 +153,7 @@
           </div>
         </div>
       </div>
-    </section>
+  </section>
 
   </main>
 
@@ -175,7 +173,7 @@
         </p>
       </div>
       <div class="blog-1">
-        <img src="img/fundador.jpg" alt="">
+        <img src="img/fundador2.jpg" alt="">
         <h3>Fundador</h3>
         <p>
         CORONEL JOSÉ RODRÍGUEZ
