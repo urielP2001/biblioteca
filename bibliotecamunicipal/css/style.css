@@ -41,10 +41,11 @@ body{
     justify-content: space-between;
     z-index: 100;
 }
-.logo{
-    color: #fffdfc;
-    font-size: 25px;
-    font-weight: 800;
+.logo img{
+    width: 60px;
+    height: 60px;
+    
+    border-radius: 15%;
     
 }
 .menu .navbar ul{
@@ -68,6 +69,7 @@ body{
     font-weight: 600;
       
 }
+
 .menu .navbar ul li a:hover{
     color: #ce967b;
 }
@@ -154,6 +156,18 @@ body{
 .header-content span{
     display: flex;
     padding: 20px;
+    /* align-items: end; */
+    justify-content: right;
+    
+}
+.btn-1-1 {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+.btn-1-1 .icono{
+    display: flex;
+    margin-top: 100px;
 }
 .btn-1{
     display: inline-block;
@@ -169,12 +183,14 @@ body{
 
 .coffee{
     /* padding: 100px 0; */
-    background-color: #e1e2e6;
+    /* background-color: #e1e2e6; */
     position: relative;
 
 }
 .coffee-content{
     text-align: center;
+    width: 100%;
+    padding: 0 100px 0 100px;
 }
 .coffee-content h2{
     font-size: 55px;
@@ -191,15 +207,19 @@ body{
     margin-bottom: 35px; 
 }
 .coffee-group{
-    max-width: 1200px;
-    display: flex;
+    /* max-width: 1200px; */
+    width: 100%;
+    display: flex !important;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: auto;
     margin-bottom: 50px;
 }
 
 .coffee-1{
+    
     max-width: 300px;
+    min-width: 300px;
     width: 100%;
     margin: auto;
     margin-top: 20px;
@@ -213,6 +233,11 @@ body{
     overflow: hidden;
     cursor: pointer;
 
+}
+.coffee-text {
+    font-size: .6em;
+    position: absolute;
+    bottom: 0;
 }
 .coffee .coffee-1:hover{
     transform: translateY(-15px);
@@ -232,12 +257,13 @@ body{
 }
 #link{
     color: #000000;
+    /* flex-grow: 1; */
 }
 .services {
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(../img/blog4.jpg);
+        url(../img/blog4.webp);
     background-position: center center;
     background-repeat: no-repeat;   
     background-size: cover;
@@ -266,7 +292,7 @@ section {
 .column {
   width: 100%;
   padding: 0 1em 1em 1em;
-  text-align: center;
+  /* text-align: center; */
 }
 .card {
   width: 100%;
@@ -274,7 +300,7 @@ section {
   padding: 2em 1.5em;
   background: linear-gradient(#ffffff 50%, #ce967b 50%);
   background-size: 100% 200%;
-  background-position: 0 2.5%;
+  background-position: 2.5% 2.5% 2.5% 2.5%;
   border-radius: 5px;
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
   cursor: pointer;
@@ -287,7 +313,7 @@ h2 {
   margin: 1em 0;
 }
 p {
-  color: #575a7b;
+  color: #000000;
   font-size: 15px;
   line-height: 1.6;
   letter-spacing: 0.03em;
@@ -301,7 +327,7 @@ p {
   color: #ffffff;
 }
 .card:hover p {
-  color: #f0f0f0;
+  color: #000000;
 }
 @media screen and (min-width: 768px) {
   section {
@@ -553,7 +579,10 @@ p {
         font-size: 1.3em;
     }
     .coffee{
-        padding: 30px;
+        align-items: center;
+    }
+    .coffee-content{
+        padding: 0;
     }
     .coffee-content h2 {
         font-size: 2em;
@@ -571,7 +600,7 @@ p {
         
     }
     .coffee-1 img{
-        width: 250px;
+        min-width: 250px;
     }
     .services{
         padding: 20px;

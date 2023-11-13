@@ -14,14 +14,24 @@ if ($resultado->num_rows > 0) {
         $descripcion = $fila["descripcion"];
         $contenido = $fila["contenido"];
         $imagen = $fila["imagen"];
+        $fecha = $fila["fecha_publicacion"];
 
         // Mostrar los datos o realizar cualquier otra operación
         echo "<div class='coffee-1'>";
-        echo "<h3>". $titulo ."</h3>";
-        echo "<img src='../gestor/img/actividades/".$imagen."'  alt=''>";
+        echo "<h1>". $titulo ."</h1>";
         echo "<p>". $descripcion ."</p>";
+        echo "<div class='fecha'>";
+        echo "<h3>". $fecha ."</h3>"; 
+        echo "<div class='red-social'>";
+        echo "<a href='https://www.facebook.com/bibliotecacoronda' class='fa fa-facebook'></a>";
+        echo "<a href='https://www.instagram.com/bibliocoronda/' class='fa fa-instagram'></a>";
+        echo "<a href='https://www.youtube.com/@bibliotecapopularcoroneljo3821' class='fa fa-youtube'></a>";
+        echo "</div>";
+        echo "</div>";
+        echo "<img src='../gestor/img/actividades/".$imagen."'  alt=''>";
         echo "<p>". $contenido ."</p>";
         echo "</div>";
+
     }
 } else {
     echo "No se encontraron registros";

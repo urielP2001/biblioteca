@@ -3,14 +3,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Biblioteca Popular Coronda</title>
-  <link rel="stylesheet" href="../css/noticiaindividual.css?v1.3">
+  <link rel="shortcut icon" href="img/logo_bib_blanco.png" />
+  <link rel="stylesheet" href="../css/noticiaindividual.css?v1.7">
   <link rel="stylesheet" href="../css/whatsapp.css">
   <script src="https://kit.fontawesome.com/8697250bf3.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header class="header" id="Inicio">
     <div class="menu container">
-      <a href="#" class="logo">logo</a>
+      <a href="#" class="logo"><img src="../img/logo_bib_blanco.png" alt=""></a>
       <input type="checkbox" id="menu">
       <label for="menu">
         <img src="../img/menu.png" class="menu-icono" alt="">
@@ -22,7 +23,6 @@
           <li><a href="../#services">Servicios</a></li>
           <li><a href="../#blog">sobre nosotros</a></li>
           <li><a href="../#pie-pagina">Contacto</a></li>
-          <button class="btnlogin-popup" onclick="location.href='../views/v_login.php'">Login</button>
         </ul>
       </nav>
 

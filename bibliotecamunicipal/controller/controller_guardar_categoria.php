@@ -1,5 +1,5 @@
 <?php
-include "../Model/conexion_bd.php";
+include "../model/conexion_bd.php";
 
 if (!empty($_POST["btnagregar"])) {
     // Verificar si se seleccionó un archivo

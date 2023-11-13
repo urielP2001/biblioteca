@@ -1,6 +1,6 @@
 
 <?php
-include "../Model/conexion_bd.php";
+include "../model/conexion_bd.php";
 
 // Obtener las noticias cuya fecha de publicación es menor o igual a la fecha y hora actual
 $sql = "SELECT * FROM noticias WHERE fecha_publicacion <= NOW() AND estado = 'pendiente'";

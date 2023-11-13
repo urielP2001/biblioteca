@@ -3,7 +3,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Biblioteca Popular Coronda</title>
-  <link rel="stylesheet" href="../css/noticias.css?v1.2">
+  <link rel="shortcut icon" href="img/logo_bib_blanco.png" />
+  <link rel="stylesheet" href="../css/noticias.css?v1.6">
   <link rel="stylesheet" href="../css/whatsapp.css?v1.1">
   <script src="https://kit.fontawesome.com/8697250bf3.js" crossorigin="anonymous"></script>
   <style>
@@ -12,7 +13,7 @@
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 5vh;
+    min-height: 7vh;
     display: flex;
     align-items: center;
     }
@@ -33,19 +34,18 @@
 </a>
   <header class="header" id="Inicio">
     <div class="menu container">
-      <a href="#" class="logo">logo</a>
+      <a href="#" class="logo"><img src="../img/logo_bib_blanco.png" alt=""></a>
       <input type="checkbox" id="menu">
       <label for="menu">
         <img src="../img/menu.png" class="menu-icono" alt="">
       </label>
       <nav class="navbar">
         <ul>
-          <li><a href="../index.php/#inicio">Inicio</a></li>
-          <li><a href="../index.php/#actividades">actividades</a></li>
-          <li><a href="../index.php/#services">Servicios</a></li>
-          <li><a href="../index.php/#blog">sobre nosotros</a></li>
-          <li><a href="../index.php/#pie-pagina">Contacto</a></li>
-          <button class="btnlogin-popup" onclick="location.href='../views/v_login.php'">Login</button>
+          <li><a href="../#inicio">Inicio</a></li>
+          <li><a href="../#actividades">actividades</a></li>
+          <li><a href="../#services">Servicios</a></li>
+          <li><a href="../#blog">sobre nosotros</a></li>
+          <li><a href="../#pie-pagina">Contacto</a></li>
         </ul>
       </nav>
 

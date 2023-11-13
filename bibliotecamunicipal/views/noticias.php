@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Biblioteca Popular Coronda</title>
-  <link rel="stylesheet" href="../css/noticias.css?v1.2">
+  <link rel="stylesheet" href="../css/noticias.css?v1.4">
   <link rel="stylesheet" href="../css/whatsapp.css?v1.1">
   <script src="https://kit.fontawesome.com/8697250bf3.js" crossorigin="anonymous"></script>
   <style>
@@ -12,7 +12,7 @@
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 5vh;
+    min-height: 7vh;
     display: flex;
     align-items: center;
     }
@@ -33,19 +33,18 @@
 </a>
   <header class="header" id="Inicio">
     <div class="menu container">
-      <a href="#" class="logo">logo</a>
+      <a href="#" class="logo"><img src="../img/logo_bib_blanco.png" alt=""></a>
       <input type="checkbox" id="menu">
       <label for="menu">
         <img src="../img/menu.png" class="menu-icono" alt="">
       </label>
       <nav class="navbar">
         <ul>
-          <li><a href="../index.php/#inicio">Inicio</a></li>
-          <li><a href="../index.php/#actividades">actividades</a></li>
-          <li><a href="../index.php/#services">Servicios</a></li>
-          <li><a href="../index.php/#blog">sobre nosotros</a></li>
-          <li><a href="../index.php/#pie-pagina">Contacto</a></li>
-          <button class="btnlogin-popup" onclick="location.href='../views/v_login.php'">Login</button>
+          <li><a href="../#inicio">Inicio</a></li>
+          <li><a href="../#actividades">actividades</a></li>
+          <li><a href="../#services">Servicios</a></li>
+          <li><a href="../#blog">sobre nosotros</a></li>
+          <li><a href="../#pie-pagina">Contacto</a></li>
         </ul>
       </nav>
 
@@ -81,7 +80,7 @@
   <footer class="pie-pagina" id="pie-pagina">
     <div class="grupo-1">
         <div class="ubicacion">
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3384.5085431707503!2d-60.918017224421995!3d-31.97422697400944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5bfa3856182f3%3A0x7c1f93e82e18a195!2sBiblioteca%20Popular%20Cnel.%20Jos%C3%A9%20Rodr%C3%ADguez!5e0!3m2!1ses!2sar!4v1686785853961!5m2!1ses!2sar" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3384.5085431707503!2d-60.918017224421995!3d-31.97422697400944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5bfa3856182f3%3A0x7c1f93e82e18a195!2sBiblioteca%20Popular%20Cnel.%20Jos%C3%A9%20Rodr%C3%ADguez!5e0!3m2!1ses!2sar!4v1686785853961!5m2!1ses!2sar" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="box">
             <h2>UBICACIÓN - Horarios de atención</h2>

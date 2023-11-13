@@ -257,7 +257,7 @@ if (empty($_SESSION["id"])){
                         <tr>
                             <?php
                             include "../controller/c_estado_noti.php";
-                             include "../Model/conexion_bd.php";
+                             include "../model/conexion_bd.php";
                             $sql=$conexion->query("select * from noticias");
                             while ($datos = $sql->fetch_object()) {
                                 $fechaPublicacion = date('d-m-Y H:i:s', strtotime($datos->fecha_publicacion)); ?>
@@ -300,7 +300,7 @@ if (empty($_SESSION["id"])){
                     <tbody>
                         <tr>
                             
-                            <?php include "../Model/conexion_bd.php";
+                            <?php include "../model/conexion_bd.php";
                             include "../controller/c_estado_act.php";
                             $sql=$conexion->query("select * from actividades");
                             

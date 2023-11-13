@@ -3,8 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Biblioteca Popular Coronda</title>
-  <link rel="stylesheet" href="css/style.css?v1.1.2">
+  <meta name="description" content="Sitio web de la Biblioteca Popular Coronel José Hernández en Coronda, Santa Fe. Información sobre servicios, eventos y colecciones.">
+  <meta name="keywords" content="Biblioteca, Coronel José Hernández, Coronda, Santa Fe, Libros, Lectura, Eventos">
+  <meta name="author" content="Biblioteca Popular Coronel José Hernández">
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow">
+  <meta name="theme-color" content="#3498db">
+
+    <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Biblioteca Popular Coronel José Hernández">
+  <meta property="og:description" content="Sitio web de la Biblioteca Popular Coronel José Hernández en Coronda, Santa Fe. Información sobre servicios, eventos y colecciones.">
+  <meta property="og:url" content="https://bibliocoronda.ar/#Inicio">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://scontent.fsfn8-1.fna.fbcdn.net/v/t39.30808-6/396723429_742669421237882_8810191542109674778_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGjmjIgFcLYx2yaZnWKvfMsJPR0uWD5Zv8k9HS5YPlm__fbrppFtzvRiOpbQQjWWKRr2AQUN0N0TqvmyldgeuUg&_nc_ohc=mD0U1lzlO6EAX8PrwRn&_nc_ht=scontent.fsfn8-1.fna&oh=00_AfDDkW6NrsvcwV1cfwu2LRe_TQxUp4j0nCkdIJZ4Ygnu7Q&oe=6552386B">
+
+
+
+  <title>Biblioteca Popular Coronel José Hernández - Coronda, Santa Fe</title>
+  <link rel="shortcut icon" href="img/logo_bib_blanco.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css?v1.19">
   <link rel="stylesheet" href="css/whatsapp.css?v1.1">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
@@ -13,7 +31,7 @@
     .header{
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
-        rgba(0,0,0,0.7)), url(img/menu2.jpg);
+        rgba(0,0,0,0.7)), url(img/menu2.webp);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,6 +39,7 @@
     display: flex;
     align-items: center;
 }
+
   </style>
 </head>
 <body>
@@ -30,7 +49,7 @@
 </a>
   <header class="header" id="Inicio">
     <div class="menu container" id="menu1">
-      <a href="#" class="logo">logo</a>
+      <a href="#" class="logo"><img src="img/logo_bib_blanco.png" alt=""></a>
       <input type="checkbox" id="menu">
       <label for="menu">
         <img src="img/menu.png" class="menu-icono" alt="">
@@ -42,7 +61,6 @@
           <li><a href="#services">Servicios</a></li>
           <li><a href="#blog">Sobre nosotros</a></li>
           <li><a href="#pie-pagina">Contacto</a></li>
-          <button class="btnlogin-popup" onclick="location.href='views/v_login.php'">Login</button>
         </ul>
       </nav>
 
@@ -53,7 +71,7 @@
       <p>
       "La Biblioteca no es una suma de libros, es un organismo vivo con vida autónoma". <span>- Umberto Eco, La memoria  vegetal.</span>
       </p>
-      <a href="#actividades" class="btn-1">Informacion</a>
+      <a href="#actividades" class="btn-1-1"><i class=" icono fa-solid fa-angles-down fa-bounce fa-2x " style="color: #ce967b;"></i></i></a>
     </div>
     
     
@@ -61,58 +79,24 @@
   
 
   <section class="coffee" id="actividades">
-    <!-- <img src="img/bg2.png" alt=""> -->
-
-    <div class="coffee-content container">
-      <h2>noticias de la institución</h2>
-      <!-- <p class="txt-p">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-         Consequatur voluptate officia rerum nemo qui quia nostrum vero ullam sunt,
-          perferendis omnis nam minima facilis neque accusamus obcaecati fugit provident incidunt.
-      </p> -->
-      <div class="row">
-        <div class="col-6">
-          <div class="coffee-group">
-            <?php include "controller/ultimasnoticias.php"?>
-          </div>
-          <a href="views/noticias.php" class="btn-1" id="services">Informacion</a>
-        </div>
-
-      </div>
-      
-    
-    </div>
+    <?php include "controller/ultimasnoticias.php"?>
   </section>
-  <section class="coffee" id="actividades">
-
-    <div class="coffee-content container">
-      <h2>actividades de la institución</h2>
-      <div class="row">
-        <div class="col-6">
-          <div class="coffee-group">
-            <?php include "controller/ultimasact.php"?>
-          </div>
-          <a href="views/actividades.php" class="btn-1" id="services">Informacion</a>
-        </div>
-
-      </div>
-      
-    </div>
+  <section class="coffee" id="actividades" >
+    <?php include "controller/ultimasact.php"?>
   </section>
 
   
 
-  <main class="services">
-  <h2 id="h2">servicios que ofrecemos</h2>
+  <main class="services" id="services" >
+  <h2 id="h2" >servicios que ofrecemos</h2>
 
-  <section>
-      
-      <div class="row">
+  <section >
+      <div class="row" >
         <div class="column">
           <div class="card">
             <div class="icon-wrapper">
             <!-- <i class="fa-solid fa-book"></i> -->
-            </div>
+            </div >
                   <p>➮Diversos talleres.</p>
                   <p>➮Préstamos de libros a domicilio.</p>
                   <p>➮Préstamo de material bibliográfico para consultar en sede.</p>
@@ -123,7 +107,7 @@
                   <p>➮Material sobre Historia y Literatura Local. Difusión de autores locales.</p>
           </div>
         </div>
-        <div class="column">
+        <div class="column" >
           <div class="card">
             <div class="icon-wrapper">
               <!-- <i class="fas fa-brush"></i> -->
@@ -164,7 +148,7 @@
 
     <div class="blog-content">
       <div class="blog-1">
-        <img src="img/menu2.jpg" alt="">
+        <img src="img/menu2.webp" alt="">
         <h3>Establecimiento</h3>
         <p>
         La Biblioteca Popular “Coronel José Rodríguez” fue fundada el 1 de octubre de 1912, siendo su primer Presidente Don Eudocio Giménez. Se encuentra ubicada en el centro urbano de la ciudad de Coronda, provincia de Santa Fe, frente a la Plaza principal, alrededor de la cual se sitúan otros edificios históricos como la Jefatura Policial, la Iglesia, la Municipalidad, entre otras. Cuenta con un edificio propio que fue donado por el Dr. Martín Rodríguez Galisteo, hijo del Coronel Rodríguez.
@@ -173,7 +157,7 @@
         </p>
       </div>
       <div class="blog-1">
-        <img src="img/fundador2.jpg" alt="">
+        <img src="img/fundador2.webp" alt="">
         <h3>Fundador</h3>
         <p>
         CORONEL JOSÉ RODRÍGUEZ

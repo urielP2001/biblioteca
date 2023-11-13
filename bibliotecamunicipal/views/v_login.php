@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/login.css?v1.1">
     <title>Document</title>
     
     <style>
@@ -20,18 +20,18 @@
   <body>
       <header class="header" id="Inicio">
           <div class="menu container">
-            <a href="#" class="logo">logo</a>
+            <a href="#" class="logo"><img src="../img/logoBibliot2.png" alt=""></a>
             <input type="checkbox" id="menu">
             <label for="menu">
               <img src="img/menu.png" class="menu-icono" alt="">
             </label>
             <nav class="navbar">
               <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="index.html#actividades">actividades</a></li>
-                <li><a href="index.html#services">Servicios</a></li>
-                <li><a href="index.html#blog">sobre nosotros</a></li>
-                <li><a href="index.html#pie-pagina">Contacto</a></li>
+                <li><a href="../#Inicio">Inicio</a></li>
+                <li><a href="../#actividades">actividades</a></li>
+                <li><a href="../#services">Servicios</a></li>
+                <li><a href="../#blog">sobre nosotros</a></li>
+                <li><a href="../#pie-pagina">Contacto</a></li>
               
               </ul>
             </nav>

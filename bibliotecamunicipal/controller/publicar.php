@@ -1,5 +1,5 @@
 <?php
-include "../Model/conexion_bd.php";
+include "../model/conexion_bd.php";
 
 // Consulta SQL para seleccionar los elementos en estado "publicado"
 $sql = $conexion->query("SELECT * FROM noticias WHERE estado = 'publicado'");

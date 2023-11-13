@@ -1,5 +1,5 @@
 <?php
-include "../Model/conexion_bd.php";
+include "../model/conexion_bd.php";
 
 // Verificar si se ha proporcionado un ID válido en la URL
 if (isset($_GET['id']) && is_numeric($_GET['id'])) {
